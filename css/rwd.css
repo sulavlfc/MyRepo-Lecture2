@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+#main-content{
+    padding: 5%;
+    height: 100%;
+
+}
+
+#personalInfo{
+    float: right;
+    position: relative;
+    bottom:30vh;
+}
+
+#personalInfo h1{
+    position: relative;
+    font-size: 5vh;
+    top:6vh;
+}
+#personalInfo h3{
+    position: relative;
+    float: right;
+
+}
+#myImg{
+    position: relative;
+    bottom: 10vh;
+}
+#image{
+    height:100%;
+
+
+}
+#image img{
+    position: relative;
+    width :100%;
+    height: 50%;
+    bottom:20vh;
+}
+
+#fwork{
+    position: relative;
+    bottom: 65vh;
+}
+
+.work-container{
+    position: relative;
+    bottom: 65vh;
+    display: flex;
+    line-height: 0px;
+}
+
+.work-container div img{
+    width: 75%;
+    height: 30vh;
+}
+
+hr{
+    position: relative;
+    bottom: 32vh;
+    width: 100%;
+    margin: auto;
+}
+

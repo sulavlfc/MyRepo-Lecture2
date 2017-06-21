@@ -1,0 +1,59 @@
+.hor-navbar nav ul{
+
+    background-color: #99aad3;
+    display: flex;
+}
+.hor-navbar{
+    width: 67%;
+    position: relative;
+    left: 33%;
+}
+
+.sidebar-nav nav{
+    position: relative;
+    width:33%;
+    float: left;
+    left : 1vh;
+}
+
+
+.sidebar-nav nav ul {
+    background-color: #9fcbd3;
+}
+
+.container{
+    width: 60% ;
+    float: left;
+
+}
+
+#personalInfo{
+    width: 50%;
+    left:45%;
+    position: relative;"
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .hor-navbar{
+        display: none;
+    }
+    .sidebar-nav{
+        width: 100%;
+    }
+    .sidebar-nav nav{
+        width: 100%;
+    }
+    .sidebar-nav ul li{
+        left: 40%;
+    }
+
+
+    #personalInfo{
+        width: 100%;
+        position: relative;
+        left: 20px;
+    }
+}
+
